@@ -10,15 +10,9 @@ def test(t,*params,**dictions)
 	позиции
 
 	'''
-	
-	summa = 0
-	for i in params
-		summa+=i
-	end
-
-	puts(summa)
-	puts(dictions.to_s)
-	puts(params.to_s)
+	puts t
+	puts params.to_s
+	puts dictions.to_s
 
 end
 
